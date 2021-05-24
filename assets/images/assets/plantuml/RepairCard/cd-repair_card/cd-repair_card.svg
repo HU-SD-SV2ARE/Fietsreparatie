@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="103px" preserveAspectRatio="none" style="width:125px;height:103px;" version="1.1" viewBox="0 0 125 103" width="125px" zoomAndPan="magnify"><defs><filter height="300%" id="f3cwural3je6a" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[61c5861697fb3423df558abac4b463d9]
+class RepairCard--><rect codeLine="3" fill="#FEFECE" filter="url(#f3cwural3je6a)" height="82.6016" id="RepairCard" style="stroke:#A80036;stroke-width:1.5;" width="104" x="7" y="7"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="64" x="27" y="24.457">RepairCard</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="110" y1="32.0938" y2="32.0938"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="13" y="47.5127">name</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="41" x="13" y="61.3486">phoneNr</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="13" y="75.1846">problemDescription</text><line style="stroke:#A80036;stroke-width:1.5;" x1="8" x2="110" y1="81.6016" y2="81.6016"/><!--MD5=[f4e0c460103af4f944f2f59587dab8db]
+@startuml
+hide circle
+
+Class RepairCard {
+  name
+  phoneNr
+  problemDescription
+}
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 11:25:05 CET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
