@@ -1,0 +1,9 @@
+@startuml
+hide circle
+
+Class RepairCard {
+  name
+  phoneNr
+  problemDescription
+}
+@enduml
