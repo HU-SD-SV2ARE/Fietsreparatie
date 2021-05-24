@@ -1,0 +1,11 @@
+@startuml
+
+skinparam style strictuml
+skinparam ArrowColor black
+
+state RepairCard {
+  [*] --> exists : add repaircard
+  exists -[#red]-> [*] : delete repaircard
+}
+
+@enduml
