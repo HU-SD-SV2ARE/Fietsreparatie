@@ -1,0 +1,13 @@
+@startuml
+left to right direction
+
+actor "Fietsenmaker" as Fietsenmaker
+
+rectangle "Reparatie Overzicht Systeem" {
+  usecase "reparatiekaart toevoegen" as addRepairCard
+  usecase "reparatiekaart verwijderen" as deleteRepairCard
+}
+
+Fietsenmaker -- addRepairCard
+Fietsenmaker -- deleteRepairCard
+@enduml
