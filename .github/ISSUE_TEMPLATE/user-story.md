@@ -2,7 +2,7 @@
 name: User Story
 about: User Story Template
 title: Als ... will ik ... ,zodat ...
-labels: ''
+labels: User Story
 assignees: ''
 
 ---
@@ -13,4 +13,4 @@ assignees: ''
 
 # Schetsen
 
-[comment]: <>: (Plaats je schermschetsen in de directory /.scrum/assets/ en verwijs hier naar de afbeelding. In MarkDown doe je dit met de volgende constructie: [label](url) )
+[comment]: <Plaats je schermschetsen in de directory /.scrum/assets/ en verwijs hier naar de afbeelding. In MarkDown doe je dit met de volgende constructie: [label](url)>
